@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "autoname": "field:abc",
+ "creation": "2024-07-06 19:57:24.663383",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "abc",
+  "edf",
+  "xyz",
+  "naming_series"
+ ],
+ "fields": [
+  {
+   "fieldname": "abc",
+   "fieldtype": "Data",
+   "label": "ABC",
+   "unique": 1
+  },
+  {
+   "fieldname": "edf",
+   "fieldtype": "Data",
+   "label": "EDF"
+  },
+  {
+   "fieldname": "xyz",
+   "fieldtype": "Data",
+   "label": "XYZ"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-07-06 20:26:50.487703",
+ "modified_by": "Administrator",
+ "module": "Programming Module",
+ "name": "Naming Series Doc",
+ "naming_rule": "By fieldname",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
